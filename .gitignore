@@ -1,1 +1,2 @@
 #Nous listons ici les fichiers et dossiers que nous ne souhaitons pas intégrer au process Git.
+.venv
