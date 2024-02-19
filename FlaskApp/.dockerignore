@@ -1,1 +1,2 @@
 #Nous listons ici les fichiers et dossier qui sont exclus du contexte de construction de Docker.
+.git
