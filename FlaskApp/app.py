@@ -9,3 +9,8 @@ def welcome():
 @app.route('/bonjour/<string:name>')
 def bonjour(name: str):
     return render_template('bonjour.html', name=name)
+
+@app.route('/python')
+def python():
+    return render_template('python.html')
+
