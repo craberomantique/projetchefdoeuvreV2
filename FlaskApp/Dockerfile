@@ -14,4 +14,4 @@ RUN pip install -r requirements.txt
 EXPOSE 3000
 
 #Commandes au lancement
-CMD python ./app.py
+CMD flask --app app.py
